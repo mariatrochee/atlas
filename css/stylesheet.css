@@ -26,16 +26,87 @@ header{
 	
 }
 
+#design{
+	background-color: #000000;
+	background-image: url(../img/bg-main.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+	background-position: center;
+	color: #ffffff;
+	position: relative;
+	z-index:10;
+	
+}
+#design h2{
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight:600;
+	padding-top: 300px;
+	}
+#trabajos h3{
+	font-size: 30px;
+	font-weight: 700;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	text-align: left;
+	color: rgba(0,16,45,1.00);
+	border-bottom: solid 1px;
+	border-bottom-color: rgba(0,110,163,1.00);
+}
+
+#trabajos p{
+	font-size: 16px;
+}
 #info h2{
 	font-size: 70px;
 	text-transform: uppercase;
-	font-weight: 600
+	font-weight: 600;
 }
+
+#info .azulito{
+	color: #007AD3
+}
+#categorias{
+	text-align: center;
+	color:rgba(0,66,94,1.00);
+	
+}
+#categorias .break{
+	border-bottom: solid 1px;
+	border-bottom-color: rgba(0,66,94,1.00);
+	padding-bottom: 10%;
+}
+#categorias p{
+	font-size: 12px;
+	text-align: left;
+	border-top: solid 1px;
+	color: rgba(78,77,77,1.00);
+	border-top-color:rgba(0,66,94,1.00);
+	padding-top: 5%;
+}
+
+#ocupados{
+	margin-top:10%;
+	margin-bottom: 15%;
+	}
 
 h3{
 	font-weight: 400;
 	font-size: 22px;
 	letter-spacing: 2px;
+}
+
+#ocupados h2{
+	padding-bottom: 2%;
+	border-bottom: solid 1px;
+	border-bottom-color: rgba(0,79,123,1.00);
+	color: rgba(0,57,88,1.00);
+	font-weight: 700;
+}
+
+#ocupados .linea{
+padding-top: 5%;
 }
 
 .subtitulo{
