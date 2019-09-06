@@ -1,4 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+@font-face 
+{font-family: ´Roboto´;
+src:url("../fonts/Roboto-Regular.woff");
+src:url("../fonts/Roboto-Regular.ttf");
+src:url("../fonts/Roboto-Regular.woff2");
+}
 body{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-size: 14px;
@@ -27,6 +36,28 @@ header{
 	position: relative;
 	z-index:10;
 	
+}
+
+#contact{
+	background-color: #000000;
+	background-image: url(../img/jazmines.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	background-position: center;
+	color: #ffffff;
+	position: relative;
+	z-index:10;
+	
+}
+
+#contact h2{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight:600;
+	padding-top: 150px;
+	z-index: 100;
+	position: relative;
 }
 
 #design{
@@ -425,12 +456,6 @@ a:hover{
 	
 }
 
-footer{
-	text-align: center;
-	background-color:#F5F5F5;
-	padding: 80px 0px;
-}
-
 #informacion{
 	text-align: center;
 	margin-top: -200px;
@@ -450,7 +475,15 @@ footer{
 #informacion a{
 	color: #ffffff
 }
-
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,0.55);
+	z-index: 10;
+}
 .slide-overlay{
 	position: absolute;
 	top: 0;
@@ -464,4 +497,13 @@ footer{
 	color: #ffffff;
 	
 }
+footer{
+	text-align: center;
+	background-color:#F5F5F5;
+	padding: 80px 0px;
+	font-family: 'Roboto', sans-serif;
+}
 
+footer a{
+	color: #777777;
+}
