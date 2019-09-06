@@ -2,7 +2,7 @@ a{
 	outline:0 !important;	
 }
 .navbar-light {
-	background-color:transparent !important;
+	background-color:transparent!important;
 	font-size:14px;
 	letter-spacing: 1px;
 }
@@ -54,7 +54,7 @@ a{
 
 .navbar-light .navbar-toggler{
 	background-color: transparent;
-	border:1px solid #000;
+	border:1px solid #ffffff;
 }
 .navbar-light .navbar-toggler:hover,
 .navbar-light .navbar-toggler:focus
@@ -63,11 +63,12 @@ a{
 	cursor:pointer;
 }
 .navbar-light .navbar-toggler-icon {
-    background-color: transparent;
+    background-color: #ffffff;
+	color: #ffffff;
 }
 
 .navbar-light .navbar-toggle:hover .icon-bar {
-    background-color: #8B2588;
+    background-color: #ffffff;
 	cursor:pointer;
 }
 .navbar-light .navbar-brand {
