@@ -52,10 +52,9 @@ header{
 }
 
 #contact h2{
-	font-size: 50px;
-	text-transform: uppercase;
-	font-weight:600;
-	padding-top: 150px;
+	font-size: 70px;
+	font-weight:700;
+	padding-top: 200px;
 	z-index: 100;
 	position: relative;
 }
@@ -78,17 +77,72 @@ header{
 	font-weight:600;
 	padding-top: 300px;
 	}
-#trabajos h3{
-	font-size: 30px;
-	font-weight: 700;
-	padding-top: 5%;
-	padding-bottom: 2%;
-	text-align: left;
-	color: rgba(0,16,45,1.00);
-	border-bottom: solid 1px;
-	border-bottom-color: rgba(0,110,163,1.00);
+
+#fotografia{
+	background-color: #000000;
+	background-image: url(../img/adrian-metasboc-143514-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	background-position: center;
+	color: #ffffff;
+	position: relative;
+	z-index:10;
+	
 }
 
+#fotografia h2{
+	font-size: 70px;
+	font-weight:700;
+	padding-top: 200px;
+	z-index: 100;
+	position: relative;
+}
+#videografia{
+	background-color: #000000;
+	background-image: url(../img/rodaje-Santo-Mauro-y-Corte-ingles-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 60vh;
+	background-position: center;
+	color: #ffffff;
+	position: relative;
+	z-index:10;
+	
+}
+
+#videografia h2{
+	font-size: 70px;
+	font-weight:700;
+	padding-top: 200px;
+	z-index: 100;
+	position: relative;
+}
+#informacion{
+	margin-top: 20%;
+	padding-top: 20%
+}
+
+.titular{
+	padding-bottom: 2%;
+	padding-top: 5%;
+	border-bottom: solid 1px;
+	border-bottom-color: rgba(107,217,251,1.00);
+	color: rgba(0,57,88,1.00);
+	font-weight: 700;
+}
+.subtitular{
+	text-align: left;
+	font-size: 20px;
+}
+.subtitle{
+	font-size: 25px;
+	color:rgba(0,40,70,1.00);
+	font-weight: 700;
+}
+.descripcion{
+	font-size: 14px !important;
+}
 #trabajos p{
 	font-size: 16px;
 }
@@ -163,12 +217,26 @@ color:rgba(0,69,107,1.00);
 	border-top-color:rgba(0,66,94,1.00);
 	padding-top: 5%;
 }
+#capsula{
+	padding: 10% 0;
+	background-color:#F4F4F4;
+}
 
+#evento{
+	padding: 10% 0;
+}
+#corporativo{
+	padding: 10% 0;
+	background-color:#f4f4f4;
+}
+
+#storytelling{
+	padding: 10% 0;
+}
 #ocupados{
 	margin-top:10%;
 	margin-bottom: 15%;
 	}
-
 h3{
 	font-weight: 400;
 	font-size: 22px;
@@ -180,8 +248,7 @@ h3{
 footer p{
 	text-align: center;
 }
-
-#ocupados h2{
+#ultimos-trabajos h2{
 	padding-bottom: 2%;
 	border-bottom: solid 1px;
 	border-bottom-color: rgba(0,79,123,1.00);
@@ -189,10 +256,29 @@ footer p{
 	font-weight: 700;
 }
 
-#ocupados .linea{
+#ultimos-trabajos .linea{
 padding-top: 5%;
 }
+#ultimos-trabajos h2{
+	padding-bottom: 2%;
+	border-bottom: solid 1px;
+	border-bottom-color: rgba(105,215,255,1.00);
+	color: rgba(0,57,88,1.00);
+	font-weight: 700;
+}
 
+#ultimos-trabajos{
+padding-top: 10%;
+}
+
+#ultimos-trabajos h5{
+	padding-top: 8%;
+}
+#ultimos-trabajos a{
+	color: rgba(0,0,15,1.00);
+	font-size: 18px;
+	font-weight: 700;
+}
 .subtitulo{
 	font-weight: 400;
 	text-transform: uppercase;
@@ -496,6 +582,10 @@ a:hover{
 .navbar-toggler{
 	color: #ffffff;
 	
+}
+#map{
+	width: 100%;
+	height: 300px;
 }
 footer{
 	text-align: center;
